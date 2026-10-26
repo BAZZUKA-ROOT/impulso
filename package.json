@@ -1,0 +1,24 @@
+{
+  "name": "impulso",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Plataforma de marketing: gera post (imagem+legenda por IA), usa a paleta de cores da marca, agenda e publica no Instagram/Facebook.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "node --import tsx --test test/*.mjs"
+  },
+  "dependencies": {
+    "next": "14.2.33",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "20.14.0",
+    "@types/react": "18.3.3",
+    "tsx": "4.19.1",
+    "typescript": "5.5.4"
+  }
+}
